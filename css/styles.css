@@ -1,0 +1,89 @@
+body {
+    color: #4F4D69;
+    /*Dark Purple*/
+    background-color: #5C6D75;
+    /*Dark Purple*/
+}
+
+h1 {
+    color: #9895BC;
+    font-family: fantasy;
+    font-weight: 200;
+    font-size: 200%;
+}
+
+p {
+    color: #9CA9C0;
+    font-family: sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    /*border: 10px solid transparent;
+   
+    border-image: url("images/border.png") 50% round;
+    -webkit-border-image: url("images/border.png") 50% round; /* Safari 3.1-5 */
+    /*-o-border-image: url("images/border.png") 50% round;*/
+    /* Opera 11-12.1 */
+    border-image: url("images/border.png") 50% round;
+    border-image-width: 0 10px 0 10px;
+    border-image-slice: 0 5px 0 30px;
+    background-color: #1D2B28;
+    border-image-repeat: repeat;
+}
+
+#border {
+    border-image-source: url(images/border.png);
+    border-image: url(images/border.png) 50% round;
+    -webkit-border-image: url(images/border.png) 50% round;
+    /* Safari 3.1-5 */
+    -o-border-image: url(images/border.png) 50% round;
+    /* Opera 11-12.1 */
+}
+
+#borderimg {
+    border: 64px solid transparent;
+    padding: 0px;
+    -webkit-border-image: url(../images/border.png) 20% round;
+    /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.png) 20% round;
+    /* Opera 11-12.1 */
+    border-image: url(../images/border.png) 20% round;
+}
+
+.trailer-container {
+    border: 10px;
+    width: 970px;
+    height: 510px;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #5C6D75;
+    box-sizing: content-box;
+}
+
+.container.h1 {
+    color: #9895BC;
+    /*font-family: fantasy;*/
+    font-weight: 200;
+    font-size: 200%;
+}
+
+button {
+    color: #9895BC;
+}
+
+.nav-collapse {
+    background-color: #313644;
+    color: #313644;
+}
+
+.navbar-brand {
+    background-color: #000000;
+}
+
+#navbar {
+    font-family: centaur;
+    font-size: 150%;
+    padding-top: 100px;
+    align-items: flex-start;
+}
